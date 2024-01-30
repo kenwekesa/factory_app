@@ -30,12 +30,5 @@ The Factory Management App for Android is a comprehensive solution designed to s
 
 - **Automatic Updates:** The app supports self-updates, ensuring that it stays up-to-date with the latest features and improvements.
 
-## Getting Started
 
-To get started with the Factory Management App for Android, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/factory-management-app-android.git
-   cd factory-management-app-android
 
