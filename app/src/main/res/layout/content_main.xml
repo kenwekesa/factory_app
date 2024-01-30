@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="672dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="0dp"
+            android:gravity="center_vertical"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="265dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/darkBlue"
+                android:ems="10"
+                android:gravity="center_vertical"
+                android:inputType="textPersonName"
+                android:text="ATCWORLD"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="148dp">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="395dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="119dp"
+                android:background="?android:attr/listDivider" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp">
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/atc_world_local_card"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardElevation="20dp">
+
+                <LinearLayout
+
+                    android:layout_width="154dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+
+                    android:background="@drawable/my_border"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nam"
+                        android:layout_width="140dp"
+                        android:layout_height="63dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="ATCWORLD"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/serv"
+                        android:layout_width="140dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/my_border"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="Local"
+                        android:textColor="@color/colorAccent" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/atc_hrm_local_card"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_margin="12dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="154dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+
+                    android:background="@drawable/my_border2"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nae"
+                        android:layout_width="140dp"
+                        android:layout_height="63dp"
+                        android:layout_gravity="center"
+                        android:background="@color/navyBlue"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="ATCHRM"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/servic"
+                        android:layout_width="140dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/my_border2"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="Local"
+                        android:textColor="@color/navyBlue" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="0dp"
+            android:padding="0dp">
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/atc_world_global_card"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_margin="12dp"
+
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardElevation="20dp">
+
+                <LinearLayout
+                    android:id="@+id/list_item"
+                    android:layout_width="154dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+
+                    android:background="@drawable/my_border"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="140dp"
+                        android:layout_height="63dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="ATCWORLD"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/service"
+                        android:layout_width="140dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/my_border"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="Global"
+                        android:textColor="@color/colorAccent" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/atc_hrm_global_card"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="154dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+
+                    android:background="@drawable/my_border2"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ame"
+                        android:layout_width="140dp"
+                        android:layout_height="63dp"
+                        android:layout_gravity="center"
+                        android:background="@color/navyBlue"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="ATCHRM"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/ervice"
+                        android:layout_width="140dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/my_border2"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="Global"
+                        android:textColor="@color/navyBlue" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

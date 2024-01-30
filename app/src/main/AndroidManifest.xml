@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.apparel.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@drawable/atcworld_icon"
+        android:installLocation="auto"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/atcworld_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <activity
+            android:name=".TransactionGatePassGatePassApplication"
+            android:label="@string/title_activity_transaction_gate_pass_gate_pass_application"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".DeviceAllocation"
+            android:label="@string/title_activity_device_allocation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HRUtilityUpdateEmployeeStatusEmployeeWhiteListing"
+            android:label="@string/title_activity_hrutility_update_employee_status_employee_white_listing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReinStateEmployee"
+            android:label="@string/title_activity_rein_state_employee"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionEmployeeDeActivationFCApproval"
+            android:label="@string/title_activity_transaction_employee_de_activation_fcapproval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionEmployeeDeActivationFactoryGMApproval"
+            android:label="@string/title_activity_transaction_employee_de_activation_factory_gmapproval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionEmployeeDeActivationFactoryHRApproval"
+            android:label="@string/title_activity_transaction_employee_de_activation_hrapproval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManualVehicleSelection"
+            android:label="@string/title_activity_manual_vehicle_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GMApproval"
+            android:label="@string/title_activity_gmapproval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionGatePassSecurityGateApproval"
+            android:label="@string/title_activity_security_gate_approval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionGatePassDepartmentApproval"
+            android:label="@string/title_activity_security_gate_approval"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionEmployeeRegistrationContractApproval"
+            android:label="@string/title_activity_contract_approval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QrScanner"
+            android:label="@string/title_activity_contract_approval"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionEmployeeRecruitementFCApproval"
+            android:label="@string/title_activity_fcapproval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionEmployeeRecruitementFactoryHRApproval"
+            android:label="@string/title_activity_factory_hrapproval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionEmployeeRecruitementFactoryGMApproval"
+            android:label="@string/title_activity_factory_gm__approval"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnlockUser"
+            android:label="@string/title_activity_user_lock"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubDet"
+            android:label="@string/title_activity_sub_det"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Driver_Scan_results"
+            android:label="@string/title_activity_driver__scan_results"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DriverScanActivity"
+            android:label="@string/title_activity_driver_scan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QR_results"
+            android:label="@string/title_activity_qr_results"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VehicleScanning"
+            android:label="@string/title_activity_vehicle_scanning"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainPageActivity"
+            android:label="@string/title_activity_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QrCodeScanner2"
+            android:label="QrCodeScan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QrCodeScannerDriver"
+            android:label="QrCodeScan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

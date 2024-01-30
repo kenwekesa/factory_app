@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="darkBlue">#138397</color>
+    <color name="lighMaroon">#f26d7d</color>
+    <color name="backMainColor">#e5fffa</color>
+    <color name="BlueColor">#0572ec</color>
+    <color name="TopMainColor">#a864a8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkCyan">#008B8B</color>
+    <color name="midNightBlue">	#191970</color>
+    <color name="navyBlue">#00008B</color>
+    <color name="cottonCandy">#FCDFFF</color>
+    <color name="Orangered">#FF4500</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="teal">#336699</color>
+</resources>

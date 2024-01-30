@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ATC WORLD</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second_page">SecondPage</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="atc_name">ATC LOGIN</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_vehicle_scanning">VehicleScanningActivity</string>
+    <string name="title_activity_qr_results">QR_results</string>
+    <string name="title_activity_driver_scan">DriverScanActivity</string>
+    <string name="title_activity_driver__scan_results">Driver_Scan_results</string>
+    <string name="title_activity_sub_det">SubDet</string>
+    <string name="title_activity_user_lock">UserLock</string>
+    <string name="title_activity_factory_gm__approval">FactoryGM_Approval</string>
+    <string name="title_activity_factory_hrapproval">FactoryHRApproval</string>
+    <string name="title_activity_fcapproval">FCApproval</string>
+    <string name="title_activity_contract_approval">ContractApproval</string>
+    <string name="title_activity_security_gate_approval">SecurityGateApproval</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gmapproval">GMApproval</string>
+    <string name="title_activity_manual_vehicle_selection">ManualVehicleSelection</string>
+    <string name="title_activity_transaction_employee_de_activation_hrapproval">
+        TransactionEmployeeDeActivationHRApproval
+    </string>
+    <string name="title_activity_transaction_employee_de_activation_factory_gmapproval">
+        TransactionEmployeeDeActivationFactoryGMApproval
+    </string>
+    <string name="title_activity_transaction_employee_de_activation_fcapproval">
+        TransactionEmployeeDeActivationFCApproval
+    </string>
+    <string name="title_activity_rein_state_employee">ReinStateEmployee</string>
+    <string name="title_activity_hrutility_update_employee_status_employee_white_listing">
+        HRUtilityUpdateEmployeeStatusEmployeeWhiteListing
+    </string>
+    <string name="title_activity_device_allocation">DeviceAllocation</string>
+
+    <string-array name="Likely_remarks">
+        <item>The device newly allocated to the user.</item>
+        <item>The device reallocated to the user.</item>
+    </string-array>
+    <string name="title_activity_transaction_gate_pass_gate_pass_application">
+        TransactionGatePassGatePassApplication
+    </string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
